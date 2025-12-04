@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IMC Aesthetics Clinic — Luxury Aesthetic Care</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- GSAP for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">IMC Aesthetics</div>
+
+  <!-- Header -->
+  <header class="nav" role="banner">
+    <div class="nav-inner container">
+      <a class="brand" href="#">IMC Aesthetics</a>
+      <nav class="menu" id="menu" role="navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#treatments">Treatments</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a class="book-btn" href="#contact">Book</a>
+      </nav>
+      <button id="hamburger" class="hamburger" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO with video background -->
+  <section id="home" class="hero" aria-label="Hero">
+    <video id="heroVideo" class="hero-video" autoplay muted loop playsinline poster="">
+      <!-- Replace the src with your clinic hero video or soft aesthetic video -->
+      <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-overlay container">
+      <div class="hero-panel">
+        <h1 class="hero-title">IMC Aesthetics Clinic</h1>
+        <p class="hero-sub">Where advanced aesthetic care meets luxurious comfort</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Book Appointment</a>
+          <a class="btn ghost" href="#treatments">Our Treatments</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container split">
+      <div class="text">
+        <h2>About IMC Aesthetics Clinic</h2>
+        <!-- REPLACE THIS PARAGRAPH with details copied from your Google Share link -->
+        <p class="lead">
+          <!-- Placeholder: paste clinic mission, background, certifications, or any copy from your link here. -->
+          IMC Aesthetics Clinic provides evidence-based aesthetic treatments in a luxurious, professional environment. Our certified specialists use advanced equipment and personalized care.
+        </p>
+        <ul class="highlights">
+          <li>Certified Aesthetic Specialists</li>
+          <li>Premium International Equipment</li>
+          <li>Personalized Treatment Plans</li>
+          <li>Highest Hygiene Standards</li>
+        </ul>
+      </div>
+      <div class="media">
+        <!-- Replace with an interior clinic image from your link or portfolio -->
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Clinic interior">
+      </div>
+    </div>
+  </section>
+
+  <!-- TREATMENTS / SERVICES -->
+  <section id="treatments" class="section treatments">
+    <div class="container">
+      <h2 class="section-title">Signature Treatments</h2>
+      <p class="muted">(Replace these entries with the exact services & descriptions from your Google share link)</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Facial Rejuvenation</h3>
+          <p>Advanced skin treatments to restore glow, texture, and tone.</p>
+          <a class="link" href="#contact">Learn More →</a>
+        </article>
+
+        <article class="card">
+          <h3>Botox & Fillers</h3>
+          <p>Subtle, natural enhancements performed by certified injectors.</p>
+          <a class="link" href="#contact">Learn More →</a>
+        </article>
+
+        <article class="card">
+          <h3>PRP & Regenerative Therapies</h3>
+          <p>Platelet rich plasma treatments to stimulate natural repair.</p>
+          <a class="link" href="#contact">Learn More →</a>
+        </article>
+
+        <article class="card">
+          <h3>Laser & Hair Removal</h3>
+          <p>State-of-the-art laser treatments for hair reduction & skin concerns.</p>
+          <a class="link" href="#contact">Learn More →</a>
+        </article>
+
+        <article class="card">
+          <h3>Body Contouring</h3>
+          <p>Non-invasive sculpting treatments tailored to your goals.</p>
+          <a class="link" href="#contact">Learn More →</a>
+        </article>
+
+        <article class="card">
+          <h3>Combination Packages</h3>
+          <p>Custom packages for bridal, pre-event, and maintenance plans.</p>
+          <a class="link" href="#contact">Learn More →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY / BEFORE & AFTER -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2 class="section-title">Before & After</h2>
+      <p class="muted">Replace these placeholder images with your clinic's real before/after photos.</p>
+      <div class="grid">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="">
+        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <h2 class="section-title">What Clients Say</h2>
+      <div class="testimonials-slider">
+        <blockquote class="testimonial">
+          <!-- Replace with real testimonials copied from your link -->
+          <p>“I had a lovely experience — professional team and beautiful results.”</p>
+          <cite>— A. Client</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>“Highly recommend IMC for safe, natural aesthetic treatments.”</p>
+          <cite>— B. Client</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING -->
+  <section id="contact" class="section contact">
+    <div class="container split">
+      <div class="text">
+        <h2>Contact & Booking</h2>
+
+        <!-- Replace the following contact details with the clinic's real details from your link -->
+        <p><strong>Address:</strong> <!-- paste address here --> 123 Premium Avenue, City</p>
+        <p><strong>WhatsApp:</strong> <!-- paste WhatsApp number here --> +123 456 7890</p>
+        <p><strong>Email:</strong> <!-- paste email here --> hello@imcaesthetics.example</p>
+        <p><strong>Hours:</strong> Mon–Sat 09:00–19:00</p>
+
+        <div class="contact-actions">
+          <a class="btn primary" href="#contact-form">Request Appointment</a>
+          <a class="btn ghost" href="#">Call / WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="form" id="contact-form">
+        <form id="bookingForm" onsubmit="submitForm(event)">
+          <input type="text" name="name" placeholder="Full name" required>
+          <input type="tel" name="phone" placeholder="Phone / WhatsApp" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <select name="treatment" aria-label="Select treatment">
+            <option value="">Select a treatment</option>
+            <option>Facial Rejuvenation</option>
+            <option>Botox & Fillers</option>
+            <option>PRP Therapy</option>
+            <option>Laser Treatments</option>
+            <option>Body Contouring</option>
+          </select>
+          <input type="date" name="date" placeholder="Preferred date">
+          <textarea name="note" placeholder="Notes / requests"></textarea>
+          <button class="btn primary" type="submit">Send Request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> IMC Aesthetics Clinic</div>
+      <div class="socials">Follow: <span>Instagram • Facebook</span></div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
